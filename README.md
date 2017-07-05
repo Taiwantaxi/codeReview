@@ -26,14 +26,14 @@
 
       * SCR3 : 修正 小黃司機/多元司機，在上傳個人文件資料區，【執業登記】不該顯示為 【良民證】
 
-      [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b)
+      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b)
 
   2. *Version 1.04.4 (201707041630)*
       * SCR4 : 修正 機場預約會顯示乘車人數 & 行李件數
 
-      [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/5)
+      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/5)
 
   3. *Version 1.04.4 (201707041730)*
       * SCR6 : 修正 預約列表頁 雙平台排序不一致
 
-      [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b)
+      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b)
