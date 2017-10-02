@@ -28,6 +28,8 @@
 
   * Oct1 : (Redmine#8504) 頁面需手動關閉無法自消， 就算未承接也會顯示，會誤導為其他任務詢問被取消
 
+  * Oct2 : (Redmine#7543) 手機App 的 log file 寫入機制, 以及將 log file 上傳 server 機制
+
 ---
 * **發版紀錄 (Hockeyapp) 測試版**
 
