@@ -115,7 +115,7 @@
 
       * 結帳畫面功能調整 (串接P4D07 P4D08)
 
-      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/39)  
+      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/40)  
 
 ---
 * **發版紀錄 (Hockeyapp) 正式版**
@@ -192,7 +192,7 @@
 
     * 結帳畫面功能調整 (串接P4D07 P4D08)
 
-    * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/24)
+    * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/25)
 
 ---
 * **發版紀錄 (App Store) 正式版**
