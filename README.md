@@ -1,189 +1,232 @@
 # IOS 司機 App 程式碼修改履歷
 
 ---
-## 2018-01
+## 2018-02
 
 **各發佈平台最新版本**
 
   1. _Hockeyapp 測試版_
 
-    * Version 1.09.13 (201801311200)
+    * Version 1.09.15 (201803161200)
 
     * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b)
 
   2. _Hockeyapp 正式版_
 
-    * Version 1.09.14 (201801311200)
+    * Version 1.09.16 (201803161200)
 
     * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5)
 
   3. _App Store 正式版_
 
-    * Version 1.09.14 (201802011200)
+    * Version 1.09.16 (201803221955)
 
     * [Download URL](https://itunes.apple.com/tw/app/55688%E5%8F%B8%E6%A9%9F%E7%89%88/id1190486682?l=zh&mt=8)
 
 ---
 * **註解說明**
 
-  * Jan0 : (Redmine#XXXX)
-    > 多元付款方式「現金」->「其他」
+  * Feb1 : (Redmine#XXXX)
+    > 藍芽功能模組開發
 
-  * Jan1 : (Redmine#10696)  
-    > 未適配 ipad 版面 [預約任務詢問頁] 上車地址長一點下車看不到
-
-  * Jan2 : (Redmine#10398)  
-    > 實作 0x300F
-
-  * Jan3 : (Redmine#10764)  
-    > 多元司機開通代駕服務後 代駕任務詢問頁 語音卻為多元任務請承接
-
-  * Jan4 : (Redmine#10832)
-    > 載客頁加上 倍率 和小費金額
-
-  * Jan5 : (Redmine#10396)
+  * Feb2 : (Redmine#10396)  
     > 整合勤威鎖路 SDK 1.0.0
 
-  * Jan6 : (Redmine#10858)
-    > 信用卡綁卡交易失敗，司機App無法再改用其他支付方式
+  * Feb3 : (Redmine#10709)
+    > 未適配 iPhone X 版面 上下顯示區域未填滿
 
-  * JanA : (Redmine#XXXX)
-    > 重複交易需任務結束
+  * Feb4 : (Redmine#XXXX)
+    > 代駕新增 QRcode、紙本簽單、現金
 
-  * JanB : (Redmine#10401)
-    > 確認 Socket 斷線時, 乘客取消叫車, 當重新連線後, 車機能否收到任務取消通知
+  * Feb5 : (Redmine#XXXX)
+    > 電文 3000 取代 3800
 
-  * JanC : (Redmine#XXXX)
-    > 藍牙功能開發
+  * Feb6 : (Redmine#11653)
+    > 車資給付增加 Line Pay 付費
 
-  * JanD : (Redmine#XXXX)
-    > 取消 3800 電文用 3000 電文替代
+  * Feb7 : (Redmine#XXXX)
+    > 串接交易錯誤代碼
+
+  * Feb8 : (Redmine#11651)
+    > 任務詢問頁顯示任務積分
+
+  * Feb9 : (Redmine#XXXX)
+    > 因應後台主機更換，故更改登入網址
+
+  * FebX : (Redmine#XXXX)
+    > 修正 orderData.jobId crash 問題
+
+  * FebY : (Redmine#XXXX)
+    > Firebase orderData.m 80行 crash
+
+  * FebZ : (Redmine#XXXX)
+    > 亮燈動畫調整
 
 ---
 * **發版紀錄 (Hockeyapp) 測試版**
 
-  1. *Version 1.09.09 (201801121800)*
+  1. *Version 1.09.15 (201802211200)*
 
       **IOS App 測試環境**
 
       _修正 bug_
 
-      * 多元付款方式「現金」->「其他」
-
-      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/41)  
-
-  2. *Version 1.09.11 (201801241800)*
-
-      **IOS App 測試環境**
-
-      _修正 bug_
-
-      * 確認 Socket 斷線時, 乘客取消叫車, 當重新連線後, 車機能否收到任務取消通知
-
-      * 重複交易需任務結束
-
-      * 信用卡綁卡交易失敗，司機App無法再改用其他支付方式
-
-      * 未適配 ipad 版面 [預約任務詢問頁] 上車地址長一點下車看不到
-
-      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/42)  
-
-  3. *Version 1.09.13 (201801301200)*
-
-      **IOS App 測試環境**
-
-      _修正 bug_
-
-      * 實作 0x300F，連線品質狀態回報 0 ~ 30 秒收到派遣中心回覆閃黃綠燈，30 ~ 60 秒閃橘燈，60 ~ 90 閃紅燈，90 以上派遣中心無回應紅燈恆亮
-
-      * 多元司機開通代駕服務後 代駕任務詢問頁 語音卻為多元任務請承接
-
-      * 載客頁加上 倍率 和小費金額
+      * 藍芽功能模組開發
 
       * 整合勤威鎖路 SDK 1.0.0
 
-      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/43)
+      * 未適配 iPhone X 版面 上下顯示區域未填滿
 
+      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/45)
 
-  4. *Version 1.09.13 (201801311200)*
+  2. *Version 1.09.15 (201803051200)*
 
       **IOS App 測試環境**
 
       _修正 bug_
 
-      * 實作 0x300F，連線品質狀態回報 0 ~ 30 秒收到派遣中心回覆閃綠燈，30 ~ 60 秒閃橘燈，60 ~ 90 閃紅燈，90 以上派遣中心無回應紅燈恆亮
+      * 藍芽功能模組開發
 
-      * 多元司機開通代駕服務後 代駕任務詢問頁 語音卻為多元任務請承接
+      * 整合勤威鎖路 SDK 1.0.0
 
-      * 載客頁加上 倍率 和小費金額
+      * 未適配 iPhone X 版面 上下顯示區域未填滿
 
-      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/43)
+      * 電文 3000 取代 3800
+
+      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/46)
+
+  3. *Version 1.09.15 (201803131800)*
+
+      **IOS App 測試環境**
+
+      _修正 bug_
+
+      * 藍芽功能模組開發
+
+      * 整合勤威鎖路 SDK 1.0.0
+
+      * 未適配 iPhone X 版面 上下顯示區域未填滿
+
+      * 電文 3000 取代 3800
+
+      * 代駕新增多付款別
+
+      * 車資給付增加 Line Pay 付費
+
+      * 任務詢問頁顯示任務積分
+
+      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/47)
+
+  4. *Version 1.09.15 (201803161200)*
+
+      **IOS App 測試環境**
+
+      _修正 bug_
+
+      * 藍芽功能模組開發
+
+      * 整合勤威鎖路 SDK 1.0.0
+
+      * 未適配 iPhone X 版面 上下顯示區域未填滿
+
+      * 電文 3000 取代 3800
+
+      * 代駕新增多付款別
+
+      * 車資給付增加 Line Pay 付費
+
+      * 任務詢問頁顯示任務積分
+
+      * 因應後台主機更換，故更改登入網址
+
+      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/48)
 
 ---
 * **發版紀錄 (Hockeyapp) 正式版**
 
-  1. *Version 1.09.10 (201801121800)*
-
-    **IOS App 正式環境**
-
-    _修正 bug_
-
-    * 多元付款方式「現金」->「其他」
-
-    * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/26)
-
-  2. *Version 1.09.12 (201801241800)*
+  1. *Version 1.09.16 (201802211200)*
 
       **IOS App 正式環境**
 
       _修正 bug_
 
-      * 確認 Socket 斷線時, 乘客取消叫車, 當重新連線後, 車機能否收到任務取消通知
-
-      * 重複交易需任務結束
-
-      * 信用卡綁卡交易失敗，司機App無法再改用其他支付方式
-
-      * 未適配 ipad 版面 [預約任務詢問頁] 上車地址長一點下車看不到
-
-      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/27)
-
-
-  3. *Version 1.09.14 (201801301200)*
-
-      **IOS App 正式環境**
-
-      _修正 bug_
-
-      * 實作 0x300F，連線品質狀態回報 0 ~ 30 秒收到派遣中心回覆閃黃綠燈，30 ~ 60 秒閃橘燈，60 ~ 90 閃紅燈，90 以上派遣中心無回應紅燈恆亮
-
-      * 多元司機開通代駕服務後 代駕任務詢問頁 語音卻為多元任務請承接
-
-      * 載客頁加上 倍率 和小費金額
+      * 藍芽功能模組開發
 
       * 整合勤威鎖路 SDK 1.0.0
 
-      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/28)
+      * 未適配 iPhone X 版面 上下顯示區域未填滿
 
-  4. *Version 1.09.14 (201801311200)*
+      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/30)
+
+  2. *Version 1.09.16 (201803051200)*
 
       **IOS App 正式環境**
 
       _修正 bug_
 
-      * 實作 0x300F，連線品質狀態回報 0 ~ 30 秒收到派遣中心回覆閃綠燈，30 ~ 60 秒閃橘燈，60 ~ 90 閃紅燈，90 以上派遣中心無回應紅燈恆亮
+      * 藍芽功能模組開發
 
-      * 多元司機開通代駕服務後 代駕任務詢問頁 語音卻為多元任務請承接
+      * 整合勤威鎖路 SDK 1.0.0
 
-      * 載客頁加上 倍率 和小費金額
+      * 未適配 iPhone X 版面 上下顯示區域未填滿
 
-      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/28)
+      * 電文 3000 取代 3800
+
+      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/31)
+
+  3. *Version 1.09.16 (201803131800)*
+
+      **IOS App 正式環境**
+
+      _修正 bug_
+
+      * 藍芽功能模組開發
+
+      * 整合勤威鎖路 SDK 1.0.0
+
+      * 未適配 iPhone X 版面 上下顯示區域未填滿
+
+      * 電文 3000 取代 3800
+
+      * 代駕新增多付款別
+
+      * 車資給付增加 Line Pay 付費
+
+      * 任務詢問頁顯示任務積分
+
+      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/32)
+
+  4. *Version 1.09.16 (201803161200)*
+
+      **IOS App 正式環境**
+
+      _修正 bug_
+
+      * 藍芽功能模組開發
+
+      * 整合勤威鎖路 SDK 1.0.0
+
+      * 未適配 iPhone X 版面 上下顯示區域未填滿
+
+      * 電文 3000 取代 3800
+
+      * 代駕新增多付款別
+
+      * 車資給付增加 Line Pay 付費
+
+      * 任務詢問頁顯示任務積分
+
+      * 因應後台主機更換，故更改登入網址
+
+      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/33)
 
 ---
 * **發版紀錄 (App Store) 正式版**
 
-  1. *Version 1.09.14 (201802011200)*  
+  1. *Version 1.09.16 (201803221955)*  
 
-    * 新增連線品質狀態偵測
+    * 支援iPhoneX版面
+
+    * 系統穩定度提升
 
     * [Download URL](https://itunes.apple.com/tw/app/55688%E5%8F%B8%E6%A9%9F%E7%89%88/id1190486682?l=zh&mt=8)
