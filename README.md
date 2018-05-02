@@ -1,232 +1,176 @@
 # IOS 司機 App 程式碼修改履歷
 
 ---
-## 2018-02
+## 2018-03
 
 **各發佈平台最新版本**
 
   1. _Hockeyapp 測試版_
 
-    * Version 1.09.15 (201803161200)
+    * Version 1.09.21 (201804231200)
 
     * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b)
 
   2. _Hockeyapp 正式版_
 
-    * Version 1.09.16 (201803161200)
+    * Version 1.09.22 (201804231200)
 
     * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5)
 
   3. _App Store 正式版_
 
-    * Version 1.09.16 (201803221955)
+    * Version 1.09.22 (201804301200)
 
     * [Download URL](https://itunes.apple.com/tw/app/55688%E5%8F%B8%E6%A9%9F%E7%89%88/id1190486682?l=zh&mt=8)
 
 ---
 * **註解說明**
 
-  * Feb1 : (Redmine#XXXX)
-    > 藍芽功能模組開發
+  * Mar1 : (Redmine#11668)
+    > 更新語音檔【代駕任務已承接】
 
-  * Feb2 : (Redmine#10396)  
-    > 整合勤威鎖路 SDK 1.0.0
+  * Mar2 : (Redmine#11793)
+    > 串接推播服務, 實作「任務詢問」與「任務取消」 (本地推播)
 
-  * Feb3 : (Redmine#10709)
-    > 未適配 iPhone X 版面 上下顯示區域未填滿
+  * Mar3 : (Redmine#XXXX)
+    > 串接錯誤代碼
 
-  * Feb4 : (Redmine#XXXX)
-    > 代駕新增 QRcode、紙本簽單、現金
+  * Mar4 : (Redmine#11793)
+    > 串接推播服務, 實作「任務詢問」與「任務取消」 (遠端推播)
 
-  * Feb5 : (Redmine#XXXX)
-    > 電文 3000 取代 3800
+  * Mar5 : (Redmine#11936)
+    > 預約任務, 任務詢問頁面顯示預估車資
 
-  * Feb6 : (Redmine#11653)
-    > 車資給付增加 Line Pay 付費
+  * Mar6 : (Redmine#11937)
+    > 串接第三方叫車平台 - 富邦好行
 
-  * Feb7 : (Redmine#XXXX)
-    > 串接交易錯誤代碼
+  * Mar7 : (Redmine#11939)
+    > 偵測 iPhone GPS 訊號
 
-  * Feb8 : (Redmine#11651)
-    > 任務詢問頁顯示任務積分
+  * Mar8 : (Redmine#12046)
+    > 星等評鑑分數, 拿掉不顯示
 
-  * Feb9 : (Redmine#XXXX)
-    > 因應後台主機更換，故更改登入網址
+  * Mar9 : (Redmine#12049)
+    > 藍芽車錶自動連線機制
 
-  * FebX : (Redmine#XXXX)
-    > 修正 orderData.jobId crash 問題
+  * Mar10 : (Redmine#XXXX)
+    > Google Map 導航
 
-  * FebY : (Redmine#XXXX)
-    > Firebase orderData.m 80行 crash
+  * Mar11 : (Redmine#XXXX)
+    > 串接第三方叫車平台 - 富邦好行
 
-  * FebZ : (Redmine#XXXX)
-    > 亮燈動畫調整
+  * Mar12 : (Redmine#XXXX)
+    > 顯示車機訊息
+
+  * MarX : (Redmine#XXXX)
+    > 藍芽計費功能修正，加入 Log
+
+  * MarY : (Redmine#XXXX)
+    > Firebase Crash 修正
+    > [CoreViewController returnGPSDataWithCLLocation]
+
+  * MarZ : (Redmine#XXXX)
+    > 取消鎖路 SDK
+
+  * MarA : (Redmine#XXXX)
+    > Bug 修正，任務取消造成的內存清空問題
+
+  * MarB : (Redmine#XXXX)
+    > Bug 修正，預約任務資料同步到即時任務
+
+  * MarC : (Redmine#XXXX)
+    > 提醒，幫忙版本評價
+
 
 ---
 * **發版紀錄 (Hockeyapp) 測試版**
 
-  1. *Version 1.09.15 (201802211200)*
+  1. *Version 1.09.17 (201803271800)*
 
       **IOS App 測試環境**
 
       _修正 bug_
 
-      * 藍芽功能模組開發
+      * 移除鎖路SDK
 
-      * 整合勤威鎖路 SDK 1.0.0
-
-      * 未適配 iPhone X 版面 上下顯示區域未填滿
-
-      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/45)
-
-  2. *Version 1.09.15 (201803051200)*
-
-      **IOS App 測試環境**
-
-      _修正 bug_
-
-      * 藍芽功能模組開發
-
-      * 整合勤威鎖路 SDK 1.0.0
-
-      * 未適配 iPhone X 版面 上下顯示區域未填滿
-
-      * 電文 3000 取代 3800
-
-      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/46)
-
-  3. *Version 1.09.15 (201803131800)*
-
-      **IOS App 測試環境**
-
-      _修正 bug_
-
-      * 藍芽功能模組開發
-
-      * 整合勤威鎖路 SDK 1.0.0
-
-      * 未適配 iPhone X 版面 上下顯示區域未填滿
-
-      * 電文 3000 取代 3800
-
-      * 代駕新增多付款別
-
-      * 車資給付增加 Line Pay 付費
-
-      * 任務詢問頁顯示任務積分
-
-      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/47)
-
-  4. *Version 1.09.15 (201803161200)*
-
-      **IOS App 測試環境**
-
-      _修正 bug_
-
-      * 藍芽功能模組開發
-
-      * 整合勤威鎖路 SDK 1.0.0
-
-      * 未適配 iPhone X 版面 上下顯示區域未填滿
-
-      * 電文 3000 取代 3800
-
-      * 代駕新增多付款別
-
-      * 車資給付增加 Line Pay 付費
-
-      * 任務詢問頁顯示任務積分
-
-      * 因應後台主機更換，故更改登入網址
+      * 藍芽計費功能修正，加入 Log
 
       * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/48)
+
+  2. *Version 1.09.19 (201804101200)*
+
+      **IOS App 測試環境**
+
+      _修正 bug_
+
+      * 預約任務, 任務詢問頁面顯示預估車資
+
+      * 星等評鑑分數, 拿掉不顯示
+
+      * Bug 修正，任務取消造成的內存清空問題
+
+      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/49)
+
+  3. *Version 1.09.21 (201804231200)*
+
+      **IOS App 測試環境**
+
+      _修正 bug_
+
+      * Bug 修正，預約任務資料同步到即時任務
+
+      * 藍芽車錶自動連線機制
+
+      * [Download URL](https://rink.hockeyapp.net/apps/282a2bda505648618083db9a25ad986b/app_versions/50)
 
 ---
 * **發版紀錄 (Hockeyapp) 正式版**
 
-  1. *Version 1.09.16 (201802211200)*
+  1. *Version 1.09.18 (201803271800)*
 
       **IOS App 正式環境**
 
       _修正 bug_
 
-      * 藍芽功能模組開發
+      * 移除鎖路SDK
 
-      * 整合勤威鎖路 SDK 1.0.0
-
-      * 未適配 iPhone X 版面 上下顯示區域未填滿
-
-      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/30)
-
-  2. *Version 1.09.16 (201803051200)*
-
-      **IOS App 正式環境**
-
-      _修正 bug_
-
-      * 藍芽功能模組開發
-
-      * 整合勤威鎖路 SDK 1.0.0
-
-      * 未適配 iPhone X 版面 上下顯示區域未填滿
-
-      * 電文 3000 取代 3800
-
-      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/31)
-
-  3. *Version 1.09.16 (201803131800)*
-
-      **IOS App 正式環境**
-
-      _修正 bug_
-
-      * 藍芽功能模組開發
-
-      * 整合勤威鎖路 SDK 1.0.0
-
-      * 未適配 iPhone X 版面 上下顯示區域未填滿
-
-      * 電文 3000 取代 3800
-
-      * 代駕新增多付款別
-
-      * 車資給付增加 Line Pay 付費
-
-      * 任務詢問頁顯示任務積分
-
-      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/32)
-
-  4. *Version 1.09.16 (201803161200)*
-
-      **IOS App 正式環境**
-
-      _修正 bug_
-
-      * 藍芽功能模組開發
-
-      * 整合勤威鎖路 SDK 1.0.0
-
-      * 未適配 iPhone X 版面 上下顯示區域未填滿
-
-      * 電文 3000 取代 3800
-
-      * 代駕新增多付款別
-
-      * 車資給付增加 Line Pay 付費
-
-      * 任務詢問頁顯示任務積分
-
-      * 因應後台主機更換，故更改登入網址
+      * 藍芽計費功能修正，加入 Log
 
       * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/33)
+
+  2. *Version 1.09.20 (201804101200)*
+
+      **IOS App 正式環境**
+
+      _修正 bug_
+
+      * 預約任務, 任務詢問頁面顯示預估車資
+
+      * 星等評鑑分數, 拿掉不顯示
+
+      * Bug 修正，任務取消造成的內存清空問題
+
+      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/34)
+
+  3. *Version 1.09.22 (201804231200)*
+
+      **IOS App 正式環境**
+
+      _修正 bug_
+
+      * Bug 修正，預約任務資料同步到即時任務
+
+      * 藍芽車錶自動連線機制
+
+      * [Download URL](https://rink.hockeyapp.net/apps/942be095eea84eed89dcb0c7aeff7cd5/app_versions/35)
 
 ---
 * **發版紀錄 (App Store) 正式版**
 
-  1. *Version 1.09.16 (201803221955)*  
-
-    * 支援iPhoneX版面
+  1. *Version 1.09.22 (201804301200)*  
 
     * 系統穩定度提升
+
+    * 功能調整與問題修正
 
     * [Download URL](https://itunes.apple.com/tw/app/55688%E5%8F%B8%E6%A9%9F%E7%89%88/id1190486682?l=zh&mt=8)
